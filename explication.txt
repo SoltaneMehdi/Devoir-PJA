@@ -7,3 +7,5 @@ le client envoi une commande, ensuite le serveur envoi le type de la reponse:
 en cas de List ou de get, le serveur envoi la reponse longue sous forme de plusieur ligne avec out.println, puis envoi "fin<" pour dire au
 client que la reponse longue est finie
 le client detecte que c'est reponse longue il utilise la methode ecrireLongReponse(in) pour afficher la reponse longue sur la console client.
+
+pour les test j'ai ajouter un fichier text texte.txt vous pouvez le metre ou vous voulez et entrer votre repertoire dans la console du client.
